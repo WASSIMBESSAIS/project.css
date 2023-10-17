@@ -32,13 +32,17 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 .topnav a:hover {
   background-color: #ddd;
   color: rgb(235, 9, 77);
 }
 
-.topnav a.active {
+.topnav a.home {
   background-color: #2196f3;
   color: white;
 }
